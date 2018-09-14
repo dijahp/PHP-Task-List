@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather|Montserrat');
+
+
+body {
+    margin: 0;
+    padding: 0;
+
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20vh;
+
+
+}
+
+.listtodo {
+    font-size: 6rem;
+    font-family: 'Merriweather', serif;
+}
+
+.addtask {
+    font-size: 3rem;
+    text-decoration: none;
+    font-family: 'Merriweather', serif;
+    border: 10px solid black;
+    padding: 20px;
+    color: #111;
+
+}
+
+ .tasks {
+    margin-bottom: 50px;
+}
+
+.addtask:hover {
+    font-size: 3.3rem;
+
+    border: 10px solid black;
+    background: black;
+    color: #fff;
+    transition: .4s;
+}
+
+.abouttodo {
+    font-size: 2rem;
+    font-family: 'Merriweather', serif;
+}
+
+input {
+    width: 400px;
+    height: 25px;
+    margin-left: 20px;
+    -webkit-transition: all 0.30s ease-in-out;
+    -moz-transition: all 0.30s ease-in-out;
+    -ms-transition: all 0.30s ease-in-out;
+    -o-transition: all 0.30s ease-in-out;
+    border: 1.2px solid #111;
+}
+
+.isubmit {
+    -webkit-appearance: none;
+    width: 400px;
+    height: 30px;
+    margin: 40px 20px;
+    text-align: center;
+    font-size: 18px;
+    border: 3px solid #000;
+    color: #111;
+    font-family: 'Montserrat', serif;
+
+}
+
+.isubmit:hover {
+    
+
+    border: 3px solid #000;
+    color: #fff;
+    background: #111;
+    transition: .4s;
+
+}
+input[type=text]:focus {
+    box-shadow: 0 0 5px rgba(0, 45, 243, 1);
+    padding: 3px 0px 3px 3px;
+    margin: 5px 1px 3px 0px;
+    border: 1px solid rgba(0, 45, 243, 1);
+}
+
+.available {
+    -webkit-appearance: none;
+    padding: 20px 50px;
+    border-radius: 5px;
+    font-size: 19px;
+}
+
+.available a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Montserrat', serif;
+}
+
+.available:hover  {
+    background: #111;
+    color: #fff;
+    transition: .3s;
+
+}
+
+.available a:hover  {
+
+    color: #fff;
+    transition: .3s;
+
+}
+
+h4 {
+
+    color: green;
+    text-align: center;
+    font-size: 19px;
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+
+}
+li {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+li a {
+
+    color: #111;
+    text-decoration: none;
+    font-family: 'Montserrat', serif;
+
+
+}
+
+.editdel {
+    -webkit-appearance: none;
+    margin: 10px 0 0 10px;
+    padding: 0 20px;
+
+}
+
+.editdel:hover {
+    color: #fff;
+    background: #111;
+    transition: .4s;
+}
+
+.editdel a {
+    text-decoration: none;
+    color: #111;
+    font-size: 15px;
+}
+
+.editdel a:hover {
+    text-decoration: none;
+    color: #fff;
+    background: #111;
+    font-size: 15px;
+    transition: .4s;
+}
